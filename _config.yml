@@ -1,0 +1,64 @@
+# Site settings
+body_font: Modern sans-serif
+feed_layout: "List"
+header_style: "Center aligned"
+show_logo_in_navigation: "True"
+navigation_layout: "Logo on cover"
+post_image_style: "Full"
+#language: 'fr-be'
+color_scheme: Dark
+show_logo_in_navigation: True
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+permalink: /:title
+title: "ip füngi"
+logo: assets/img/ezgif.com-reverse.gif
+authors: fungi
+# cover: assets/img/dirac_fermat.png
+# email: your-email@example.com
+description: >-
+ a blog in a random world. 
+#domain: ipfungi.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://ipfungi.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /
+twitter: ipfungi
+github: ipfungi
+soundcloud: ipfungi
+mastodon: "@geiko"
+rss: " "
+# github_username: jekyll
+# Build settings
+# theme: kaschber
+#theme: minima
+remote_theme: ipfungi/theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - jekyll-remote-theme
+  
+defaults:
+   -scope:
+       path: "assets/img"
+       values:
+           image: true   
+  
+feed:
+  path: feed.xml
+  
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: author
+      current: author
+      cover: false
+      class: 'author-template'
+      label: Author

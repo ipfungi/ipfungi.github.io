@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "La simulation"
+tag: "Story"
+date:   2023-04-13 02:07:14 +0200
+custom_excerpt: En cours...
+cover: assets/img/matrice.png
+cover_caption: "La matrice"
+categories: jekyll update
+---
+En cours...
