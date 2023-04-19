@@ -1,11 +1,26 @@
 ---
 layout: post
-title:  "La simulation"
-tag: "Story"
+title:  "Le monde simulé"
+tag: "Micro"
 date:   2023-04-13 02:07:14 +0200
-custom_excerpt: En cours...
+custom_excerpt: Installez-vous confortablement pour un petit voyage dans la matrice.
 cover: assets/img/matrice.png
-cover_caption: "La matrice"
+cover_caption: "Matrix. Réalisé par les Wachowski, 1999."
+usemathjax: true
 categories: jekyll update
 ---
-En cours...
+## Souffle...
+
+23h48 sur votre interface pixelisée un samedi soir. Enième soirée insipide après une semaine effrayante de banalité. Cigarette clouée à la main droite, vous refaites le monde en expirant la frustration accumulée. Après 42 expirations, une idée parvient à s'échapper de vos poumons encrassés. "Et si je vivais dans une simulation?". La question kidnappe votre attention. Le portable connecté aux entrailles d'internet, vous décidez d'entreprendre des recherches. 
+
+Après une heure, agacé par les jolis articles vides, vous désespérez. Chose assez rare, une conférence d'un physicien britannique parvient à balayer votre ennui. Elle tourne la question sous un autre angle. "Est-il réalisable de simuler les lois de la nature?". Bien que simuler le mouvement des objets est compliqué mais possible, simuler le mouvement des particules semble être face à une impasse théorique. Il explique que certaines lois de la physique quantique requièrent l'usage de sommes infinies dont les termes positifs et négatifs s'alternent. En simulant, on tronque alors ces sommes bizarres et on livre des tas d'instabilités absentes dans la réalité - c'est le problème du signe. Déçu, vous comprenez que la simulation informatique semble impossible. 
+
+Cette réponse ne vous suffit pas. Une petite voix s'éveille pour vous rappeler que rien est vrai. Relations amoureuses consommées, discussions dont la convenance les rend vide, plats préparés édulcorés. Le réel semble disparaître sous votre impuissance. En tapotant ses pensées sur votre terminal, le nom Baudrillard apparaît avec insistance. Vous cliquez sur un des hyperliens vous renvoyant vers le passage d'un de ses livres, jonché entre des pubs pour se donner l'air d'avoir perdu du poids sans en perdre. Vous lisez "Simuler est feindre d'avoir ce qu'on n'a pas" ou encore "le réel se substitue aux signes du réel".
+ 
+La nuit recule. Vos globes oculaires fatigués par la dalle rétro-éclairée vous rappellent l'heure tardive. Sur ces passages, vous étouffez votre oreille droite dans le plumage de votre coussin jusqu'à l'aube, avant que la boucle ne recommence.   
+
+
+## Références 
+- David Tong, 2020. "Are we living in the matrix?". Via Youtube. 
+- Jean Baudrillard, 1981. "Simulacres et Simulation".
+
