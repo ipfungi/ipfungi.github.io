@@ -30,7 +30,7 @@ mastodon: "@geiko"
 rss: " "
 # github_username: jekyll
 # Build settings
-#theme: kaschber
+theme: kaschber
 
 markdown: kramdown
 
@@ -39,7 +39,7 @@ kramdown:
   syntax_highlighter: rouge
 
 #theme: minima
-remote_theme: ipfungi/theme
+#remote_theme: ipfungi/theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

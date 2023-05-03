@@ -1,6 +1,6 @@
 ---
 layout: page
-title: _Readme
+title: About
 permalink: /about/
 ---
 ## Bio

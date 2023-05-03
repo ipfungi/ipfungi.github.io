@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Avoir Twitter sans pubs et sans recommandations"
+tag: "Tech"
+date:   2023-05-03
+custom_excerpt: Twitter déborde de pubs et de recommandations algorithmiques depuis un bon moment. Il existe pourtant de nombreux outils méconnus du grand public pour s'en débarrasser. C'est ce que nous allons voir dans ce bref billet de blog.
+cover: assets/img/justin_jay_gradient.png
+cover_caption: "Justin Jay pour Open AI."
+categories: jekyll update
+Image: assets/img/iceraven.jpg
+permalink: /avoir-twitter-sans-contenu-suggere/
+---  
+
+## Préliminaires
+L'installation décrite ci-dessous est détaillée pour les appareils mobiles sous Android 5.0 ou une version ultérieure. Si vous possédez un appareil sous iOS et iPadOs ou simplement un ordinateur, vous pouvez passer la première étape. 
+
+De manière générale, je vous recommande l'application [Twidere X](https://x.twidere.com/) libre et open-source, disponible sur Android mais également sur iOS et iPadOs. Son interface se veut simple mais son affichage des threads est bugué (Twidere X est toujours en beta). Si vous préférez avoir une solution plus fonctionnelle, voici comment procéder. 
+
+## 1. Installer le navigateur Iceraven
+
+[Firefox mobile](https://www.mozilla.org/fr/firefox/browsers/mobile/) n'offre pas l'entièreté des modules disponibles sur la version desktop mais uniquement les plus populaires (bien que le catalogue tend à être de plus en plus fourni). Il faudra alors vous munir d'[Iceraven](https://github.com/fork-maintainers/iceraven-browser), un fork supportant de nombreux modules dont un qui nous intéresse. Une autre feature est le support de la page `about:config` pour des modifications plus profondes du navigateur.
+
+Le téléchargement d'Iceraven débute sur GitHub. Dans l'onglet ["releases"](https://github.com/fork-maintainers/iceraven-browser/releases) du fork, vous y trouverez de nombreux fichiers au format `.apk` avec des appellations différentes selon l'architecture du processeur. Ne prêtez pas attention aux versions `x86` et `x86_64`. Elles sont là au cas où vous feriez tourner Android sur un ordinateur. Choisissez la version `armeabi-v7a` si vous préférez que le navigateur n'utilise pas plus de 4 GB de RAM. Dans le cas contraire, partez sur la version `arm64-v8a`.
+
+Lors de l'installation, Android vous demandera l'autorisation d'installer des applications issues de sources inconnues. Acceptez pour cette fois-ci mais restez vigilant pour des installations ultérieures.
+
+## 2. Installer le module "Control Panel for Twitter"
+ 
+ En ouvrant Iceraven (pour les appareils Android), sélectionnez "Modules complémentaires" dans le menu déroulant. Une extension va nous intéresser ici. Il s'agit de [Control Panel for Twitter](https://github.com/insin/control-panel-for-twitter) dont le but est de contrôler individuellement les éléments d'affichage du site web de Twitter. Elle embarque de nombreuses options pour améliorer l'expérience utilisateur. Je vous invite à vous balader dans les paramètres de l'extension pour la personnaliser à vos goûts. 
+ 
+ Si vous utilisez Safari, cliquez [ici](https://support.apple.com/fr-be/guide/iphone/iphab0432bf6/ios) pour savoir comment installer un module complémentaire. Pour les ordinateurs, l'extension est disponible sur les principaux navigateurs comme Firefox, Brave ou encore Chrome et Edge (que je déconseille).
+ 
+ L'extension est normalement pré-configurée pour bloquer les contenus suggérés. Au cas-où ça ne serait pas le cas, voici les quelques options à activer : 
+ - Cocher toutes les cases dans le sous-menu "Contenu algorithmique d'origine" pour supprimer les recommandations dans la timeline.
+ - Cocher toutes les cases dans le sous-menu "Supprimer le contenu algorithmique". En l'activant, vous n'aurez plus de recommandations dans la page "Explore" et la page "Découvrir plus".
+ - Une fois cochées, il ne vous reste plus qu'à cocher "Publicités Twitter" dans le sous-menu "Masquer les éléments inutilisés du menu hamburger" pour définitivement supprimer les pubs de votre feed.
+ 
+## 3. Améliorer l'expérience utilisateur
+
+Maintenant que votre navigateur est configuré, vous pouvez désormais profiter de Twitter sans pubs et recommandations algorithmiques. Je vous conseillerais de créer un raccourci sur votre page d'accueil, i.e. une WebApp, et de réserver votre navigateur à cette usage. L'option est disponible dans le menu déroulant de Iceraven sous le nom "Installer". 
+
+Enfin, noter que vous pouvez également rendre Twitter moins intrusif en installant en parallèle la populaire extension [uBlock Origin](https://ublockorigin.com/) (non disponible sur Safari). Elle se chargera principalement de bloquer des noms de domaine liés au pubs et au tracking.
+ 
+## Conclusion
+ 
+  Après plusieurs mois d'utilisation journalière de ce setup sous mon Oneplus 6T, je n'ai constaté aucun problème particulier. Le seul inconvénient est la fluidité de la WebApp qui est plutôt moyenne, néanmoins sans impacts sur les fonctionnalités de Twitter.  Dans le futur, Firefox mobile devrait implémenter de nouveaux modules, dont "Control Panel for Twitter" déjà présent dans sa version beta. En attendant, les solutions décrites ici sont toutes fonctionnelles.
+ 
+ Pour me suivre sur Twitter [@ipfungi](https://twitter.com/ipfungi).
+
+

@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Le monde simulé"
-tag: "Micro"
-date:   2023-04-13 02:07:14 +0200
+tag: "Experience"
+date:   2023-04-21 02:07:14 +0200
 custom_excerpt: Installez-vous confortablement pour un petit voyage dans la matrice.
 cover: assets/img/matrice.png
 cover_caption: "Matrix. Réalisé par les Wachowski, 1999."
-usemathjax: true
 categories: jekyll update
 ---
 ## Souffle...
