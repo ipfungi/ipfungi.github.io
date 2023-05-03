@@ -7,8 +7,6 @@ custom_excerpt: Twitter déborde de pubs et de recommandations algorithmiques de
 cover: assets/img/justin_jay_gradient.png
 cover_caption: "Justin Jay pour Open AI."
 categories: jekyll update
-Image: assets/img/iceraven.jpg
-permalink: /avoir-twitter-sans-contenu-suggere/
 ---  
 
 ## Préliminaires
